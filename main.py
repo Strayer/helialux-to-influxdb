@@ -9,7 +9,7 @@ import logging
 from datetime import datetime, timezone
 
 HELIALUX_SPECTRUM_IP=os.getenv("HELIALUX_SPECTRUM_IP")
-MEASUREMENT = os.getenv("INFLUXDB_DB")
+MEASUREMENT = os.getenv("INFLUXDB_MEASUREMENT")
 TIMEZONE = "Z"
 LOGLEVEL = os.getenv("LOGLEVEL", "INFO")
 
